@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <style>
+        
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;        
+            background-image:url("DSC04537.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+
+    
+        h1 {
+            font-size: 25px;
+            text-align: center;
+        text-align: center;
+        }
+
+        .input-container h1 { text-align: center; }
+        .input-container {  
+        font-family: "Courier New", monospace;
+
+            width: 250px;
+    }
+.login-box {
+            width: 300px;
+            margin: 100px auto;
+        }
+        input {
+            background: linear-gradient(to right, rgba(186, 246, 253, 0.76), rgb(197, 236, 186));
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid white;
+            border-radius: 4px; 
+            box-sizing: border-box;
+        }
+        .login-box button {
+            background-color: rgb(244, 49, 0);
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid white;
+            border-radius: 4px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+    <div class="login-box">
+        <img id="logo" src="catpower.png" alt="Playful orange cat with pointed ears and wide eyes arches its body and reaches its paws outward against a plain black background">
+    
+        <h1>Welcome Back!</h1>
+    
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>    
+        </form> 
+       
+       
+        </div>
+    </center>
+    </body>
+
+</HTML>
